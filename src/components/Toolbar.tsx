@@ -18,6 +18,8 @@ const Toolbar: React.FC<ToolbarProps> = ({ onSelectTool }) => {
       <h3>Herramientas</h3>
       <button onClick={() => onSelectTool("rectangle")}>Cuadrado</button>
       <button onClick={() => onSelectTool("circle")}>Círculo</button>
+      <button onClick={() => onSelectTool("round")}>Redondear</button>{" "}
+      {/* Nuevo botón */}
     </div>
   );
 };
